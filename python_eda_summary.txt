@@ -1,0 +1,64 @@
+Python EDA Summary
+==================
+
+Dataset Shape
+(100000, 29)
+
+Main KPIs
+Total tickets: 100000
+Within SLA: 46530
+Breached: 13583
+Not Resolved: 39887
+SLA Breach Rate: 13.58%
+Average Resolution Hours: 45.01
+Average CSAT: 2.24
+Reopen Rate: 5.04%
+
+SLA Status Distribution
+sla_status
+Within SLA      46530
+Not Resolved    39887
+Breached        13583
+
+Tickets by Product Area
+product_area
+mobile_app             14432
+login_auth             14381
+api_integration        14350
+billing                14289
+data_export            14262
+analytics_dashboard    14187
+notifications          14099
+
+Tickets by Channel
+channel
+phone_transcript    20133
+email               20088
+in_app              19982
+web_form            19965
+chat                19832
+
+Average Resolution Time by Priority
+priority
+low       55.61
+medium    43.28
+high      31.56
+urgent    26.71
+
+Average CSAT by Sentiment
+customer_sentiment
+very_negative    1.05
+negative         1.75
+neutral          2.46
+positive         3.14
+very_positive    3.51
+
+SLA Breach Rate by Product Area
+product_area
+mobile_app             14.28
+api_integration        13.91
+login_auth             13.55
+notifications          13.47
+analytics_dashboard    13.44
+data_export            13.29
+billing                13.13

@@ -1,0 +1,21 @@
+SLA Breach Prediction Model Results
+===================================
+
+Model: Random Forest Classifier
+Training rows: 48090
+Testing rows: 12023
+Accuracy: 78.36%
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.81      0.95      0.87      9306
+           1       0.55      0.22      0.31      2717
+
+    accuracy                           0.78     12023
+   macro avg       0.68      0.58      0.59     12023
+weighted avg       0.75      0.78      0.74     12023
+
+Confusion Matrix
+[[8835  471]
+ [2131  586]]
